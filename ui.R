@@ -43,8 +43,7 @@ shinyUI(navbarPage("Decision-Scaling Tool",
           )
           ),
           mainPanel(
-            plotOutput(outputId="responsesurface",width="60%"),
-            includeScript("www/d3.v3.min.js")
+            plotOutput(outputId="responsesurface",width="60%")
           )
         )
       ),
